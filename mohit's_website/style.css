@@ -1,0 +1,78 @@
+  .Top{
+    background-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    object-fit: cover;
+  }
+  /*Adding Navbar*/
+  #navbar{
+    background-size: contain;
+    background-blend-mode: lighten;
+    width:25%;
+  }
+  #logo{
+    height:70px;
+    width:100px;
+  }
+  .Description a{
+    width:75%;
+    object-fit: cover;
+    position: inherit;
+    text-align: center;
+    object-position: bottom;
+    padding:50px;
+    margin:0px 25px;
+    margin-top: 50px;
+    position:sticky;
+  }
+  /*
+  .home{
+    width:25%;
+    object-position: bottom;
+    padding-top: 50px;
+    border:10px;
+    border-color: blue;
+  }
+  .about{
+    width:25%;
+    object-position: bottom;
+    padding-top: 50px;
+  }
+  .contact{
+    width:25%;
+    object-position: bottom;
+    padding-top: 50px;
+  }
+  .help{
+    width:25%;
+    object-position: bottom;
+    padding-top: 50px;
+  }
+  .logout{
+    width:25%;
+    object-position: bottom;
+    padding-top: 50px;
+  }
+  */
+
+  /*Add header*/
+  .header{
+    background-image: url('concert_photo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode:lighten;
+    height: 300px; /* Set the height as per your requirement */ 
+
+  }
+
+  /*Content of the header*/
+  .header .Title{
+    font-family: fantasy;
+    font-style: italic;
+    text-align:center;
+    width: 50%;
+    padding: 60px auto 60px auto;
+    border-color:darkblue ;
+    border-width: 10px;
+    margin:auto;
+  }
